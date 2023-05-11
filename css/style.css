@@ -1,0 +1,32 @@
+.bg-cinza-transparente {
+    background-color: rgba(216, 215, 215, 0.575);
+}
+
+.bg-blur {
+    background-image: url('../image/estrada-com-arvores-a-volta-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-font{
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Caveat', cursive;
+    color: white;
+    padding: 100px;
+    
+}
+
+
+.texto-verde{
+    color: rgb(36, 155, 32);
+}
